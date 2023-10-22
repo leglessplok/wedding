@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Jonathan and Samantha are getting married!</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="vendor/fontawesome/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Pacifico|Sacramento|Limelight" rel="stylesheet">
+
+	<style>
+		
+		p {
+		font-family: 'Abel', sans-serif;
+		}
+		
+		.title{
+			font-family: 'Limelight', cursive;
+			font-size: 4em;
+			color: #fff08e;
+			text-shadow: #7a7a7a 4px 3px 0;
+		}
+		
+		.lead{
+		font-family: 'Abel', sans-serif;
+		}
+		
+		h1{
+		font-family: 'Limelight', cursive;
+		}
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+       
+       #clockdiv{
+			font-family: sans-serif;
+			color: #000;
+			display: inline-block;
+			font-weight: 100;
+			text-align: center;
+			font-size: 30px;
+			opacity: 0.8;
+    		filter: alpha(opacity=80); /* For IE8 and earlier */
+		}
+
+		#clockdiv > div{
+			padding: 10px;
+			border-radius: 10px;
+			display: inline-block;
+		}
+
+		#clockdiv div > span{
+			padding: 15px;
+			border-radius: 10px;
+			display: inline-block;
+		}
+
+		.smalltext{
+			padding-top: 5px;
+			font-size: 16px;
+		}
+		
+		#countdown{
+			background: #fff08e;
+		}
+		
+		#location{
+			background: #fffffc;
+		}
+		
+		#contact{
+			background: #fffffc;
+		}
+		
+		#quote{
+			/*font-family: 'Pacifico', cursive;*/
+			font-family: 'Sacramento', cursive;
+			background: #fffffc;
+			font-size: 2.5rem;
+			text-align: center;
+		}
+		
+		#rsvp{
+			background: #f0f0f1;
+		}
+		
+		#giftlist{
+			background: #fff08e;
+		}
+		
+		#timeline{
+			background: #f0f0f1;
+		}
+
+		.footer{
+			/*background: url(Collage_Fotor2gray.jpg) no-repeat center center; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: auto 100%;
+			height: 550px;
+			width:100%;
+*/
+		}
+		
+    </style>
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">J<i class="far fa-heart"></i>S</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#countdown">Countdown</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#location">Location</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#timeline">Timeline</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#giftlist">Gift Registry</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-header">
+        <div class="text-center"> 
+			  <img src="JonathanSamantha.png" class="img-fluid"></img>
+          </div>
+        </header>
+        
+             <section id="quote">
+      <div class="container">
+      <blockquote class="blockquote">
+            <p id="quote">What a great thing, to be loved! What a greater thing still, to love!</p>
+            <footer class="blockquote-footer">Victor Hugo, <cite title="Source Title">Les Miserables</cite></footer>
+        </blockquote>
+        
+      </div>
+    </section>
+    
+               <section id="countdown">
+        <div class="container">  
+        <h1>Countdown to the Big Day!</h1>
+        <p>Our wedding ceremony will be at 2pm on 24th March 2018 in the Ballygally Castle.</p>
+        <p></p>
+        <center>
+        <div class="text-center" id="clockdiv">
+		  <div>
+			<span class="days"></span>
+			<div class="smalltext">Days Married</div>
+		  </div>
+		  <!--<div>
+			<span class="hours"></span>
+			<div class="smalltext">Hours</div>
+		  </div>
+		  <div>
+			<span class="minutes"></span>
+			<div class="smalltext">Minutes</div>
+		  </div>
+		  <div>
+			<span class="seconds"></span>
+			<div class="smalltext">Seconds</div>
+		  </div>
+		</div>-->
+		</center>
+      </div>
+    </section>
+     <section id="location">
+      <div class="container">
+            <h1>Ballygally Castle Hotel, Ballygally</h1>
+            <p>Located along the scenic coast road the Ballygally Castle will create a stunning backdrop for our day.</p>
+            <p>There are some rooms available at the Ballygally Castle.  There are other hotels and B&Bs available nearby.</p>
+            <p>For directions and more information visit <a href="https://www.hastingshotels.com/ballygally-castle/">Ballygally Castle Website</a></p>
+            <p>Beware of the ghost!</p>
+      </div>
+    </section>
+
+    
+        <section id="timeline">
+      <div class="container">
+
+            <h1>Timeline</h1>
+            <p>How we hope the day will run</p>
+			<div class="table-responsive">          
+			  <table class="table borderless">
+			  <tbody>
+				  <tr>
+					<td><h2><i class="far fa-heart"></i></h2></td>
+					<td>2pm</td>
+					<td>It's time to say I do.</td>
+				  </tr>
+				  <tr>
+					<td><h2><i class="fas fa-camera-retro"></i></h2></td>
+					<td>3pm</td>
+					<td>Time to relax, while we smile for the camera</td>
+				  </tr>
+				  <tr>
+					<td><h2><i class="far fa-comments"></i></h2></td>
+					<td>5pm</td>
+					<td>Speeches</td>
+				  </tr>
+				  <tr>
+					<td><h2><i class="fas fa-utensils"></i></h2></td>
+					<td>5.30pm</td>
+					<td>Time for dinner</td>
+				  </tr>
+				  <tr>
+					<td><h2><i class="fas fa-music"></i></h2></td>
+					<td>8pm</td>
+					<td>Evening guests arrive, time to get the dancing shoes on</td>
+				  </tr>
+				</tbody>
+			  </table>
+			</div>
+      </div>
+    </section>
+   
+        <section id="giftlist">
+		  <div class="container">
+				<h1>Gift Registry</h1>
+				<p>Of course, the most important gift is having you there to share our special day. </p>
+		  </div>
+		</section>
+
+       <section id="contact">
+      <div class="container">
+            <h1>Contact</h1>
+            <p>If you have any questions or queries about the day or information above don't be afraid to give us a shout!</p>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer py-2">
+      <div class="container">
+        <p class="m-0 text-center align-text-bottom">Copyright &copy; Jonathan Francey 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+ 	<script src="js/countdown.js"></script>
+ 	<!-- Custom Theme JavaScript -->
+    <script src='js/google-sheets.js'></script>
+ 	
+  </body>
+
+</html>
